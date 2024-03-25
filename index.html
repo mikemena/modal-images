@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img
+          src="images/001.JPG"
+          alt="Description 1"
+          data-description="Description 1"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/002.JPG"
+          alt="Description 2"
+          data-description="Description 2"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/003.jpg"
+          alt="Description 3"
+          data-description="Description 2"
+        />
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="imageHeader">Image Description Here</h2>
+        </div>
+        <img class="modal-image" id="img01" />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
